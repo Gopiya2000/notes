@@ -1,0 +1,48 @@
+HTML:
+Sections:
+        Head,Body,h1,h2,h3,h4,h5,h6
+Outline:
+        Solid,Dotted,etc.
+Features:
+        Doesn't contain null tag.
+        <img>,<br>,<hr>
+Form Validation:
+ Types: Build-in,Javascript
+ Build-in:
+        doesn't require much js,has better performance than js but not as
+customized as js.
+        Eg:required,minlength,maxlength,min,max,type,pattern.
+Javascript:
+        validation is customize but you need to create it all.
+        Eg:input,output,button,select,textarea
+ Queryselecor:
+        Styles only the first element.
+ QueryselectorAll:
+        to return all elements with the given styling.
+addEventListener:
+        attaches an event handler to an element.
+Custom elements:
+ Types:Customized Build-in,Autonomous custom elements.
+Customized Build-in:inherit from basic HTML elements.
+Eg:
+class ExpandingList extends HTMLUListElement {
+  constructor() {
+ constructor
+    super();
+  }
+}
+
+Autonomous custom elements:don't inherit from HTML elements,use these on a
+page by literally writing them out as a HTML element.
+Eg:
+class PopUpInfo extends HTMLElement {
+  constructor() {
+ constructor
+    super();
+  }
+}
+Callback:
+to react to an element,we listen and spply a function which will then be
+called by a browser.
+WebSocket:
+     connection between browser and server.
