@@ -1,0 +1,16 @@
+SETS:
+Set.prototype.add() – It adds the new element with a specified value at the end of the Set object.
+Set.prototype.delete() – It deletes an element with the specified value from the Set object. 
+Set.prototype.clear() – It removes all the element from the set. 
+Set.prototype.entries() – It returns an iterator object which contains an array having the entries of the set, in the insertion order. 
+Set.prototype.has() – It returns true if the specified value is present in the Set object.
+Set.prototype.values() – It returns all the values from the Set in the same insertion order. 
+Set.prototype.keys() – It also returns all the values from the Set in the insertion order. 
+Set.prototype.forEach() – It executes the given function once for every element in the Set, in the insertion order. 
+subSet() – It returns true if Set A is a subset of Set B. 
+A Set A is said to be a subset of Set B, if all the elements of Set A is also present in Set B.Now lets implement and use the subset function. 
+union() – It returns a Set which consists of union of Set A and Set B .A Set is said to be a union of two set, if it contains all element of Set A as well as all elements of Set B, but it does’nt contains duplicate elements. 
+ntersection() – It returns the intersection of Set A and Set B. 
+A Set is said to be the intersection of Set A and B if contains element which is present both in Set A and Set B. 
+difference() – It returns the Set which contains difference of Set A and Set B. A Set is said to be a difference of Set A and B if it contains set of element e which are present in Set A but not in Set B. 
+
